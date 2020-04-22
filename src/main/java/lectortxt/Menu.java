@@ -21,7 +21,7 @@ public class Menu {
      */
     //static lectortxt.txt s=null;
     public static void main(String[] args)throws IOException{
-        new lectortxt.txt().Contenido("/Users/lfr/Desktop/pila.txt");
+        new lectortxt.txt().Contenido("/Users/lfr/Desktop/pila.txt"); // cambiar a la ruta donde se ecuentra el txt en la compu donde se va a compilar
         // TODO code application logic here
         
         
