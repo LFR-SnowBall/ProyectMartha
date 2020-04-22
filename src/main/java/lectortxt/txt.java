@@ -45,7 +45,7 @@ public class txt {
         if(!getvacia()){
             String contenido="";
             for(int i=(tope); i>=0; i--){
-                contenido+=Pila[i];
+                contenido=Pila[i];
                if(contenido.equals(Checar)){
                    existencia=true;
                }
