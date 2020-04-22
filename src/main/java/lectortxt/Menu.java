@@ -37,6 +37,9 @@ public class Menu {
                     Funcion=sn.next();
                     new NumRandom().randomnum(Funcion);
                     break;
+                case 3:
+                    new BusquedaBinaria().BinariNum();
+                    break;
             }
         }
          
