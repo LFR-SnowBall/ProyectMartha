@@ -11,7 +11,7 @@ import java.io.FileWriter;
 
 /**
  *
- * @author lfr
+ * @author Martha
  */
 public class txt {
     String Txt="";
@@ -40,12 +40,12 @@ public class txt {
         }
         }
     }
-    boolean imprimir(String Checar){
+    boolean imprimir(String Checar){//checa si el valor existe edentro
         boolean existencia=false;
         if(!getvacia()){
             String contenido="Pila Vacia";
             for(int i=(tope); i>=0; i--){
-                contenido+=Pila[i]+"\n";
+                contenido+=Pila[i];
                if(contenido.equals(Checar)){
                    existencia=true;
                }
@@ -57,7 +57,7 @@ public class txt {
         }
         return existencia;     
     }
-    String imprimirr(){
+    String imprimirr(){//imprime la pila completa
         if(!getvacia()){
             String contenido="";
             for(int i=(tope); i>=0; i--){
