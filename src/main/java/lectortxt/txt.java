@@ -43,7 +43,7 @@ public class txt {
     boolean imprimir(String Checar){//checa si el valor existe edentro
         boolean existencia=false;
         if(!getvacia()){
-            String contenido="Pila Vacia";
+            String contenido="";
             for(int i=(tope); i>=0; i--){
                 contenido+=Pila[i];
                if(contenido.equals(Checar)){
